@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Circuit, Workout
+
+admin.site.register(Circuit)
+admin.site.register(Workout)
