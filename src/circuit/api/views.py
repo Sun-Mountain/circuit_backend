@@ -1,10 +1,8 @@
-from rest_framework.generics import (
-    ListAPIView,
-    RetrieveAPIView
-)
-
-from circuit.models import Circuit, Workout
-from .serializers import CircuitSerializer, WorkoutSerializer
+    
+from django.shortcuts import render, redirect
+from rest_framework.generics import ListAPIView, RetrieveAPIView
+from circuit.models import Workout, Circuit
+from .serializers import WorkoutSerializer, CircuitSerializer
 
 class circuit_list(ListAPIView):
     queryset = Circuit.objects.all()
