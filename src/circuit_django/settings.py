@@ -13,7 +13,7 @@ SECRET_KEY = 'ncw*2y1(y0x--5n)55&9o+th9=c4(e083)vkue^+sh*g7gs-*k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'circuit-backend.herokuapp.com/']
+ALLOWED_HOSTS = ['herokuapp.com/']
 
 
 # Application definition
