@@ -13,7 +13,7 @@ SECRET_KEY = 'ncw*2y1(y0x--5n)55&9o+th9=c4(e083)vkue^+sh*g7gs-*k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'circuit-backend.herokuapp.com/']
 
 
 # Application definition
@@ -112,6 +112,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
