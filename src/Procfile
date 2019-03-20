@@ -1,1 +1,1 @@
-web: gunicorn sampledeploy.wsgi —-log-file -
+web: gunicorn circuit_django.wsgi —-log-file -
