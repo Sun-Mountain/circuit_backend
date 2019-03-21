@@ -30,3 +30,10 @@ This is a React.js frontend and Django backend, styled with CSS.
 - psycopg2-binary
 - python3
 - whitenoise
+
+## Future
+- Add user authorization so that they will only show circuits that the user created.
+- Create a timer to run through circuit workouts, countingdown and then prompting the user to start the next workout.
+- Make it so that users could choose to have their circuits private or public.
+- Users can "favorite" or save circuits from other users to their boards.
+- Create a leaderboard for most popular circuits.
