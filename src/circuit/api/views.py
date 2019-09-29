@@ -22,7 +22,6 @@ class circuit_detail(RetrieveAPIView):
     queryset = Circuit.objects.all()
     serializer_class = CircuitSerializer
 
-@permission_classes([permissions.AllowAny,])
 class circuit_create(CreateAPIView):
     queryset = Circuit.objects.all()
     serializer_class = CircuitSerializer
